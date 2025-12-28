@@ -3,6 +3,8 @@ import plotly.express as px
 import os
 import qrcode
 from PIL import Image
+import numpy as np
+import pandas as pd
 
 # --- CONFIGURATION PAGE ---
 st.set_page_config(
@@ -228,3 +230,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
